@@ -1,3 +1,111 @@
-.red {
-    color: red;
-}
+body {
+    margin: 0;
+    padding: 0;  
+  }
+.flexContainer{
+     background-color: #181a19; 
+      display: flex;
+      overflow: hidden;
+      text-align: justify;
+  }
+  
+.textContainer{
+      background-color: #181a19;
+      padding: 30px;
+      width: 50%;
+      margin: 0 50px;
+      box-sizing: border-box;
+  }
+.imgDiv{
+      position: absolute;
+      right: 30px;
+      top: calc(50vh - 5px);
+      transform: translateY(-50%);
+      max-width: 40%;
+      height: auto;
+      margin: 30px;
+  }
+.fakeImg{
+      margin: 20px;
+      width: 100%;
+      height: auto;
+      transform: scale(0.7);
+  }
+  
+.deadlineText{
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  
+.boldTxt {
+    font-weight: bold;
+  }
+.subHeading{
+    font-family: 'Playfair Display', serif;
+    color: #f9f871;
+    text-decoration: underline;
+  }
+.discText{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+.rulesTxt{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 30px;
+  }
+.registerBtn{
+    font-family: 'Montserrat', sans-serif;
+    position:absolute;
+    left: 25%;
+    border: 2px solid #f9f871;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition:1s;
+  }
+.registerBtn:hover{
+  background-color: #f9f871;
+  color: #181a19;
+  }
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    color: #f9f871;
+    font-family: 'Playfair Display', serif;
+  }
+  /* Media query */
+@media (max-width: 568px) {
+    .flexContainer {
+      flex-direction: column-reverse;
+      justify-content: center;  
+    }
+    .discText{
+      font-size: 1.1rem;
+    }
+    .heading{
+      text-decoration: none;
+    }
+    .registerBtn{
+        transform: translateX(30%);
+    }
+    .subHeading{
+        text-align: center;
+    }
+    .textContainer{
+     width: 100%;
+     margin: 40% 0 0 0;
+    }
+    .imgDiv{
+      position: static;
+      margin: 0 auto;
+    }
+   .fakeImg{
+    height: auto;
+    width: 100%;
+    transform: translateY(100%) translateX(-5%) scale(1.8);
+   }
+  }
+  

@@ -1,3 +1,37 @@
-.red {
-    color: red;
+.pagewrapper{
+    background-color:  #181a19;
+    padding:50px 100px 50px 100px;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color:#f9f871 ;
+    font-family:  'Playfair Display',sans-serif;
+    font-size: 200%;
+    display:flex;
+    justify-content: center;
+}
+.subheading{
+    padding-top: 10px;
+    font-family:  'Playfair Display',sans-serif;
+    color: #c9cccb;
+    font-size: x-large;
+}
+.rules{
+    padding: 10px 50px;
+    font-size: large;
+    font-family: 'Montserrat,sans-serif';
+    color: #c9cccb;
+}
+.endnote{
+    font-size: large;
+    font-family: 'Montserrat,sans-serif';
+    color: #c9cccb;
+}
+.regards{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Montserrat,sans-serif';
+    font-size: xx-large;
 }

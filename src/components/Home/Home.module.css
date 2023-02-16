@@ -28,7 +28,6 @@ button:hover{
 }
 .parent{
   display: flex;
-  height: 100vh;
 }
 .left{
   width:50%;
@@ -43,4 +42,33 @@ button:hover{
   height: 75%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:768px){
+    .parent{
+        flex-direction:column;
+    }
+
+    .left {
+        width: 75%;
+        background: rgba(24, 26, 25, 1);
+        padding:5%;
+    }
+
+    .heading {
+        padding-left:0;
+    }
+
+    .right {
+        width: 80%;
+    }
+
+    .right img{
+        height:50vh;
+        transform:translateY(-10%);
+        position:relative;
+        z-index:-1;
+        background:rgba(24, 26, 25, 0.5);
+    }
 }

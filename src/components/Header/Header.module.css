@@ -70,6 +70,7 @@ body {
     .nav .navmenu {
         display: none;
         position: fixed;
+        z-index:3;
         left: 0;
         top:4.5rem;
         flex-direction: column;

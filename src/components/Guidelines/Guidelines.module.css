@@ -20,12 +20,11 @@
 .rules{
     padding: 10px 50px;
     font-size: large;
-    font-family: 'Montserrat,sans-serif';
+    
     color: #c9cccb;
 }
 .endnote{
     font-size: large;
-    font-family: 'Montserrat,sans-serif';
     color: #c9cccb;
 }
 .regards{
@@ -35,3 +34,16 @@
     font-family: 'Montserrat,sans-serif';
     font-size: xx-large;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .pagewrapper {      
+        padding: 5% 10%;       
+    }
+
+    .rules{
+        padding:5%;
+    }
+}
+
+  

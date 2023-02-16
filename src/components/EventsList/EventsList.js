@@ -40,13 +40,13 @@ function EventsList() {
         ]
     };
 	return (
-        <div class="EventList">
-            <div class={styles.title }>
-                <p class={styles.heading}>&emsp; Events</p>
+        <div className="EventList">
+            <div className={styles.title }>
+                <p className={styles.heading}>&emsp; Events</p>
                 <h1>Lorem Ipsum</h1>
             </div>
 
-            <Slider {...settings} class={ styles.list}>
+            <Slider {...settings} className={ styles.list}>
                 <EventCard></EventCard>
                 <EventCard></EventCard>
                 <EventCard></EventCard>

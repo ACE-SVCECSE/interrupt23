@@ -251,9 +251,9 @@ const Ace = () => {
 					<div>
 						<div className={styles.photoplusace }>
 							<div>
-								<img src = "/assets/whatisace.jpg" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
+								<img src = "/assets/whatisace.jpg" alt="whatisace" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
 								<div className={styles.blurbox} style = {{position: "relative", top: "-70px", boxSizing: "border-box", width: "600px", height: "50px", padding: "50px", border: "100px",textAlign: "center", zIndex: 1}}>
-									<h1 className={styles.typing,styles.demo} style = {{position: "relative", left: "120px"}}>What is Ace?</h1>
+									<h1 className={`${styles.typing} ${styles.demo}`} style = {{position: "relative", left: "120px"}}>What is Ace?</h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra. Nam et mi ipsum. Nam consectetur leo et libero viverra hendrerit. Cras vel purus dolor. Integer mattis erat a placerat porta.</p>
 								</div>
 							</div>
@@ -309,7 +309,7 @@ const Ace = () => {
 		return(
 			<>
 				<div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "10px" }} className={styles.ace}>
-					<img src = "https://acesvce.in/images/logo.png"/>	
+					<img src = "https://acesvce.in/images/logo.png" alt="logo"/>	
 					<h2 class = "typing-demo" style = {{letterSpacing: '7px'}}>WHAT IS ACE?</h2>
 					<h6 style = {{width: "320px", textAlign: "center"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet,</h6>
 				</div>

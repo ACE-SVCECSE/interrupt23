@@ -25,7 +25,7 @@ function Header() {
             <div className={styles.headerwrap}>
                 <div className={styles.nav}>
                     <div className={styles.logo}>
-                        <img src="../logo192.png" />
+                        <img alt="logo"  src="../logo192.png"/>
                     </div>
                     <div className={menuClassName}>
                         <div className={styles.navitems}>
@@ -54,9 +54,9 @@ function Header() {
                         </div>
                     </div>
                     <button className={hamburgerClassName} onClick={handleHamburgerClick}>
-                        <span class={styles.bar}></span>
-                        <span class={styles.bar}></span>
-                        <span class={styles.bar}></span>
+                        <span className={styles.bar}></span>
+                        <span className={styles.bar}></span>
+                        <span className={styles.bar}></span>
                     </button>
                 </div>
             </div>

@@ -16,12 +16,12 @@ const images = [
 const Carousel = () => {
     const [n, setN] = useState(0);
     const inc = () => {
-        if (n != images.length - 1){
+        if (n !== images.length - 1){
             setN(n + 1); 
         }
     }
     const dec = () => {
-        if (n != 0){
+        if (n !== 0){
             setN(n - 1); 
         }
     }
@@ -33,12 +33,12 @@ const Carousel = () => {
             </div>
             <div>
                 <div style = {{display: "flex", flexDirection: "row", justifyContent: "center", gap: "100px"}}>
-                        <button onClick={dec} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowleftactually.png" length = "50px" height = "50px"/></div></button>
+                        <button onClick={dec} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowleftactually.png" alt="arrowleft" length = "50px" height = "50px"/></div></button>
                         <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: "20px" }}>
-                            <img src={images[n].url} length="20px" height="200px" className={styles.carousel_image} />
+                            <img src={images[n].url} alt="carousel" length="20px" height="200px" className={styles.carousel_image} />
                             <h3 className={styles.typewriter2} style = {{alignSelf: "center"}}>{images[n].caption}</h3>
                     </div>
-                        <button onClick={inc} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowright.png" length = "50px" height = "50px"/></div></button>
+                        <button onClick={inc} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowright.png" alt ="arrow" length = "50px" height = "50px"/></div></button>
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
-import {useState} from 'react';
-import arrowleft from './images/arrowleftactually.png';
-import arrowright from './images/arrowright.png';
+import { useState } from 'react';
+import styles from './Ace.module.css';
+
 
 const images = [
     {
-        "caption": "AcE inaugaration",
+        "caption": "ACE Inaugaration",
         "url": "https://hips.hearstapps.com/hmg-prod/images/cute-baby-animals-1558535060.jpg"
     },
     {
@@ -33,12 +33,12 @@ const Carousel = () => {
             </div>
             <div>
                 <div style = {{display: "flex", flexDirection: "row", justifyContent: "center", gap: "100px"}}>
-                <button onClick = {dec} className = 'arrow' style = {{backgroundColor: "#181a19"}}><div style = {{background: "#181a19"}}><img src = {arrowleft} length = "50px" height = "50px"/></div></button>
-                    <div style = {{display: "flex", flexDirection: "column", justifyContent: "center", gap: "20px"}}>
-                        <img src = {images[n].url} length = "20px" height= "200px"/>
-                        <h6 className = "typewriter2" style = {{alignSelf: "center"}}>{images[n].caption}</h6>
+                        <button onClick={dec} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowleftactually.png" length = "50px" height = "50px"/></div></button>
+                        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: "20px" }}>
+                            <img src={images[n].url} length="20px" height="200px" className={styles.carousel_image} />
+                            <h3 className={styles.typewriter2} style = {{alignSelf: "center"}}>{images[n].caption}</h3>
                     </div>
-                <button onClick = {inc} className = 'arrow' style = {{backgroundColor: "#181a19"}}><div style = {{background: "#181a19"}}><img src = {arrowright} length = "50px" height = "50px"/></div></button>
+                        <button onClick={inc} className={styles.arrow} style={{ backgroundColor: "#181a19" }}><div style={{ background: "#181a19" }}><img src="/assets/arrowright.png" length = "50px" height = "50px"/></div></button>
                 </div>
             </div>
         </div>

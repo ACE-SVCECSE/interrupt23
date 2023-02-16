@@ -77,7 +77,7 @@ body {
     font-family: 'Playfair Display', serif;
   }
   /* Media query */
-@media (max-width: 568px) {
+@media (max-width: 768px) {
     .flexContainer {
       flex-direction: column-reverse;
       justify-content: center;  

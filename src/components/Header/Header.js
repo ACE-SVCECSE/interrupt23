@@ -12,7 +12,6 @@ import EventsList from '../EventsList/EventsList';
 import Ace from '../Ace/Ace';
 import Guidelines from '../Guidelines/Guidelines';
 import Contact from '../Contact/Contact';
-import getEvents from '../../data/eventsData';
 
 function Header() {
     const [isMenuVisible, setIsMenuVisible] = useState(false)

@@ -4,13 +4,6 @@
     display: flex;
     justify-content: center;
 }
-.heading{
-    color:#f9f871 ;
-    font-family:  'Playfair Display',sans-serif;
-    font-size: 200%;
-    display:flex;
-    justify-content: center;
-}
 .subheading{
     padding-top: 10px;
     font-family:  'Playfair Display',sans-serif;

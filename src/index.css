@@ -2,6 +2,7 @@ body {
     background-color: #181a19;
     color: #c9cccb;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {

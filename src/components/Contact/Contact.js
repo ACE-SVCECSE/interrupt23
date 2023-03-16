@@ -4,7 +4,7 @@ import Title from '../Title/Title';
 
 function Contact() {
 	return(
-		<Title heading="Contact" desc="Lorem ipsum dolor"></Title>
+		<Title heading="CONTACT" desc="Lorem ipsum dolor"></Title>
 	)
 }
 

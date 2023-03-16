@@ -6,7 +6,7 @@ function Guidelines() {
 	return (
 		<div className={styles.pagewrapper}>
 			<div className={styles.ruleswrapper}>
-				<Title heading="Rules" desc="Lorem ipsum dolor"></Title>
+				<Title heading="GUIDELINES" desc="Lorem ipsum dolor" component="Guidelines"></Title>
 				<div className={styles.subheading}>
 					Dear participants, here are some very important rules and regulations that you need to follow for Hackerrupt'22
 				</div>

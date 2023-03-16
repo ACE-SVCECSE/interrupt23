@@ -1,17 +1,2 @@
-.title{
-    margin-left:5%;
-}
-.heading {
-    font-size: 1.8em;
-    margin-bottom: 5px;
-}
 
-.heading::after {
-        content: "";
-        display: block;
-        height: 2px;
-        width: 200px;
-        margin-top: 10px;
-        background-color: #f9f871;
-}
 

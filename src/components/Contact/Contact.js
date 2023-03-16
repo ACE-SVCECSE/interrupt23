@@ -1,8 +1,11 @@
 import React from 'react';
+import Title from '../Title/Title';
 import styles from './Contact.module.css';
 
 function Contact() {
-	return <h1 className={styles.red}>Contact</h1>
+	return(
+		<Title heading="Contact" desc="Lorem ipsum dolor"></Title>
+	)
 }
 
 export default Contact;

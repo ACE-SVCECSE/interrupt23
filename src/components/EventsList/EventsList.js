@@ -1,8 +1,9 @@
 import React from 'react';
 import EventCard from '../EventCard/EventCard';
+import Title from '../Title/Title';
 import styles from './EventsList.module.css';
 import Slider from "react-slick";
-
+import getEvents from '../../data/eventsData';
 
 function EventsList() {
     var settings = {
@@ -39,27 +40,15 @@ function EventsList() {
             }
         ]
     };
+
+    const events = getEvents();
 	return (
         <div className="EventList">
-            <div className={styles.title }>
-                <p className={styles.heading}>&emsp; Events</p>
-                <h1>Lorem Ipsum</h1>
-            </div>
-
+            <Title heading="Events" desc="Lorem ipsum dolor"></Title>
             <Slider {...settings} className={ styles.list}>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-                <EventCard></EventCard>
-            </Slider>
-
-            
+                {events.map((event)=><EventCard data={event}></EventCard>)}
+            </Slider>   
+            <Title></Title>         
         </div>
 
 		);

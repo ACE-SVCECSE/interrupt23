@@ -12,6 +12,7 @@ import EventsList from '../EventsList/EventsList';
 import Ace from '../Ace/Ace';
 import Guidelines from '../Guidelines/Guidelines';
 import Contact from '../Contact/Contact';
+import getEvents from '../../data/eventsData';
 
 function Header() {
     const [isMenuVisible, setIsMenuVisible] = useState(false)
@@ -33,11 +34,7 @@ function Header() {
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
-                            <li><Link to="/event">Event</Link></li>
-                            <div className={styles.line}></div>
-                        </div>
-                        <div className={styles.navitems}>
-                            <li><Link to="/eventslist">EventsList</Link></li>
+                            <li><Link to="/events">Events</Link></li>
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
@@ -63,11 +60,11 @@ function Header() {
             <div>
                 <Routes>
                     <Route exact path='/' element={< Home />}></Route>
-                    <Route exact path='/event' element={< Event />}></Route>
-                    <Route exact path='/eventslist' element={< EventsList />}></Route>
+                    <Route exact path='/events' element={< EventsList />}></Route>
                     <Route exact path='/ace' element={< Ace />}></Route>
                     <Route exact path='/guidelines' element={< Guidelines />}></Route>
                     <Route exact path='/contact' element={< Contact />}></Route>
+                    <Route exact path={`/events/:eventname`} element={< Event />}></Route>
                 </Routes>
             </div>
         </Router>

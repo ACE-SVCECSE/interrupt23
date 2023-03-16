@@ -1,13 +1,12 @@
 import React from 'react';
+import Title from '../Title/Title';
 import styles from './Guidelines.module.css';
 
 function Guidelines() {
 	return (
 		<div className={styles.pagewrapper}>
 			<div className={styles.ruleswrapper}>
-				<div className={styles.heading}>
-					Rules
-				</div>
+				<Title heading="Rules" desc="Lorem ipsum dolor"></Title>
 				<div className={styles.subheading}>
 					Dear participants, here are some very important rules and regulations that you need to follow for Hackerrupt'22
 				</div>

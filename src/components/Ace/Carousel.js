@@ -27,7 +27,7 @@ const Carousel = () => {
     }
     return(
         <>
-        <div style = {{display: "flex", flexDirection: "column", gap: "20px", justifyContent: "space-between"}}>
+        <div className ={styles.carousel}>
             <div>
                 <h1 style = {{textAlign: "center"}}>Gallery</h1>
             </div>

@@ -39,11 +39,21 @@ body {
   
 .boldTxt {
     font-weight: bold;
-  }
+    text-decoration: underline;
+}
+
+ .round{
+    font-family: 'Playfair Display', serif;
+    color: #f9f871;
+ }
 .subHeading{
     font-family: 'Playfair Display', serif;
     color: #f9f871;
     text-decoration: underline;
+  }
+  .teamSize{
+    color: #f9f871;
+    font-size: 1.8em;
   }
 .discText{
     font-family: 'Montserrat', sans-serif;
@@ -58,13 +68,15 @@ body {
   }
 .registerBtn{
     font-family: 'Montserrat', sans-serif;
-    position:absolute;
+    position: relative;
     left: 25%;
     border: 2px solid #f9f871;
     color: #fff;
     text-decoration: none;
     padding: 10px 25px;
-    transition:1s;
+    transition: 1s;
+    display: inline-block;
+    margin: 5%;
   }
 .registerBtn:hover{
   background-color: #f9f871;
@@ -75,6 +87,10 @@ body {
     text-decoration: underline;
     color: #f9f871;
     font-family: 'Playfair Display', serif;
+  }
+
+  .contact{
+    font-size: 1.2em;
   }
   /* Media query */
 @media (max-width: 768px) {

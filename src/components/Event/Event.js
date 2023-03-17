@@ -18,17 +18,29 @@ function Event(props) {
 			<div className={styles.flexContainer}>
 			  <div className={styles.textContainer}>
 				<h1 className={styles.heading}>{event.title}</h1>
-				<p className={styles.discText}>{event.eventDetails.desc}</p>
+				<p className={styles.discText}>{event.oneliner}</p>
+				<div>
+					{event.eventDetails.rounds.map((round,key) => <div><h1 className={styles.round}> Round {key}:</h1>{round}</div>)}
+				</div>
 				<h2 className={styles.subHeading}><strong>Rules:</strong></h2>
 				<ol>
 					{event.eventDetails.rules.map(rule => <li className={styles.rulesTxt}>{rule}</li>)}				 
 				</ol>
-				<p className={styles.deadlineText}><span className="bold-txt">Deadline to Register:</span> 5th May 2021, 11:59 p.m.</p>
+				<h1 className={styles.teamSize}>Team size of : {event.eventDetails.teamSize}</h1>
+				<p className={styles.deadlineText}><span className={styles.boldTxt}>Judging criteria</span> : {event.eventDetails.judging}</p>
+				<p className={styles.deadlineText}><span className={styles.boldTxt}>Deadline to Register</span> : 5th May 2021, 11:59 p.m.</p>
 				<a href={event.eventDetails.registerLink} target="_blank" rel="noopener noreferrer" className={styles.registerBtn}>REGISTER</a>
+				<div>
+				<h2 className={styles.subHeading}>For any queries, contact</h2>
+				<ol>
+					{Object.keys(event.eventDetails.contact).map(current => <li className={styles.contact}>{current} : {event.eventDetails.contact[current]}</li>)}
+				</ol>
+			  </div>
 			  </div>
 			  <div className={styles.imgDiv}>
 				<img src={event.image} alt="fake-img" className={styles.fakeImg} />
 			  </div> 
+			 
 			</div>
 		  </div>
 		);

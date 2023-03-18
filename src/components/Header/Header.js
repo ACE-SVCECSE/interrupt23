@@ -29,23 +29,23 @@ function Header() {
                     </div>
                     <div className={menuClassName}>
                         <div className={styles.navitems}>
-                            <li><Link to="/">Home</Link></li>
+                            <li onClick = {()=>handleHamburgerClick()}><Link to="/">Home</Link></li>
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
-                            <li><Link to="/events">Events</Link></li>
+                            <li onClick = {()=>handleHamburgerClick()}><Link to="/events">Events</Link></li>
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
-                            <li><Link to="/ace">Ace</Link></li>
+                            <li  onClick = {()=>handleHamburgerClick()}><Link to="/ace">Ace</Link></li>
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
-                            <li><Link to="/guidelines">Guidelines</Link></li>
+                            <li  onClick = {()=>handleHamburgerClick()}><Link to="/guidelines">Guidelines</Link></li>
                             <div className={styles.line}></div>
                         </div>
                         <div className={styles.navitems}>
-                            <li><Link to="/contact">Contact</Link></li>
+                            <li  onClick = {()=>handleHamburgerClick()}><Link to="/contact">Contact</Link></li>
                             <div className={styles.line}></div>
                         </div>
                     </div>

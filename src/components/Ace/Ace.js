@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Ace.module.css';
 import AceCard from './AceCard';
 import Carousel from './Carousel';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import getTeam from '../../data/teamData';

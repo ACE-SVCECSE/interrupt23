@@ -20,7 +20,7 @@ function Event(props) {
 				<h1 className={styles.heading}>{event.title}</h1>
 				<p className={styles.discText}>{event.oneliner}</p>
 				<div>
-					{event.eventDetails.rounds.map((round,key) => <div><h1 className={styles.round}> Round {key}:</h1>{round}</div>)}
+					{event.eventDetails.rounds.map((round,key) => <div><h1 className={styles.round}> Round {key+1}:</h1>{round}</div>)}
 				</div>
 				<h2 className={styles.subHeading}><strong>Rules:</strong></h2>
 				<ol>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Ace.module.css';
 import AceCard from './AceCard';
 import Carousel from './Carousel';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import getTeam from '../../data/teamData';
@@ -22,7 +22,7 @@ const Ace = () => {
 								<img src = "/assets/whatisace.jpg" className = {styles.whatisaceimage} alt="whatisace" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
 								<div className={styles.blurbox}>
 									<h1 className = {styles.whatisace}>What is Ace?</h1>
-									<div className = {styles.acepic}><img src = "https://i.ibb.co/WHmm2qh/logo-1.png" height = "100px" width = "100px"/></div>
+									<div className = {styles.acepic}><img src = "https://i.ibb.co/WHmm2qh/logo-1.png" alt="aceImg" height = "100px" width = "100px"/></div>
 									<p className = {styles.acepara}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra. Nam et mi ipsum. Nam consectetur leo et libero viverra hendrerit. Cras vel purus dolor. Integer mattis erat a placerat porta.</p>
 								</div>
 						</div>

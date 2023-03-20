@@ -47,8 +47,7 @@ function EventsList() {
             <Title heading="EVENTS" desc="Lorem ipsum dolor"></Title>
             <Slider {...settings} className={ styles.list}>
                 {events.map((event)=><EventCard data={event}></EventCard>)}
-            </Slider>   
-            <Title></Title>         
+            </Slider>        
         </div>
 
 		);

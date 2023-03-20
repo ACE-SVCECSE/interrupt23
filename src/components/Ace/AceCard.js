@@ -1,7 +1,7 @@
 import styles from './Ace.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 
 const AceCard = ({pic, name, position, bio}) => {
 	useEffect(() => {

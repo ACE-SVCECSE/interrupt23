@@ -41,7 +41,8 @@ const Ace = () => {
 								<img src = "/assets/whatisace.jpg" alt="whatisace" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
 								<div className={styles.blurbox} style = {{position: "relative", top: "-70px", boxSizing: "border-box", width: "600px", height: "50px", padding: "50px", border: "100px",textAlign: "center", zIndex: 1}}>
 									<h1 className={`${styles.typing} ${styles.demo}`} style = {{position: "relative", left: "120px"}}>What is Ace?</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra. Nam et mi ipsum. Nam consectetur leo et libero viverra hendrerit. Cras vel purus dolor. Integer mattis erat a placerat porta.</p>
+									<p>The Association of Computer Engineers (ACE) serves as one of the founding clubs of "The Department of Computer Science and Engineering" at Sri Venkateswara College of Engineering (SVCE).
+									It is intriguing that ACE, whose beginnings date back to 1992, has grown into one of the most influential and well-known clubs in the SVCE. The fact that ACE has been operating for more than two decades is heartening and notable. ACE has consistently been instrumental in recognizing and integrating young minds and innovators by hosting a wide range of events every year, such as workshops, presentations, quizzes, career counseling, etc. Our flagship events, "INTERRUPT" and "HACKERRUPT," provide students with a stage on which to thrive and showcase their abilities</p>
 								</div>
 							</div>
 						</div>

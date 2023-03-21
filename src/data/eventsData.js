@@ -91,7 +91,19 @@ const events =[
             ],
             rounds:[
                 " Round 1 will be an online round where people sign up and send in a PowerPoint presentation on the specified domains. Participants are also requested to send a general script on how they will present their PPT on the day of competition if the team feels it is necessary. A sample script will be attached for a reference.",
-                ` Round 2 will involve the selected teams presenting their PPTs offline, and they will be given 8–10 minutes per presentation. After their presentation, the other competing teams will be allowed to question the idea of that team. The core team of judges will score the teams on several parameters: \n1. Fluidity in presentation \n2. Teamwork \n3. How does the team answer questions? \n4. Feasibility of product (how they bring profit, risk management, ROI, initial investment, etc.) \n5. The drive of the team and their idea behind it. \nTopics for Round 1 and 2: \n1. Education \n2. Medical \n3. Sports and fitness \n4. E commerce \n5. Entertainment \n6. Antivirus systems`,
+                ` Round 2 will involve the selected teams presenting their PPTs offline, and they will be given 8–10 minutes per presentation. After their presentation, the other competing teams will be allowed to question the idea of that team. The core team of judges will score the teams on several parameters: 
+                1. Fluidity in presentation 
+                2. Teamwork 
+                3. How does the team answer questions? 
+                4. Feasibility of product (how they bring profit, risk management, ROI, initial investment, etc.) 
+                5. The drive of the team and their idea behind it. 
+                Topics for Round 1 and 2: 
+                1. Education 
+                2. Medical 
+                3. Sports and fitness 
+                4. E commerce 
+                5. Entertainment 
+                6. Antivirus systems`,
                 "3-4 teams will be chosen as winners from round 2 and they will be allowed to bid and choose from 5 preplanned and pre-made PPT. Teams will be marked on how well they are able to debate the given topics using the PowerPoint. The topics for this round come under the following domains: AI, Computation and Data security."
             ],
             judging: "1.Fluidity in presentation 2.Teamwork 3.How does the team answer questions?",

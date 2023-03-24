@@ -1,3 +1,20 @@
+.carousel{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.teamstruct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para1{
+    width: 600px;
+}
+
 
 .carousel{
     display: flex;
@@ -53,6 +70,14 @@
 }
 
 .blurbox {
+    position: relative;
+    top: -70px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 50px;
+    padding: 50px;
+    border: 100px;
+    text-align: center; 
     position: relative;
     top: -70px;
     box-sizing: border-box;
@@ -216,6 +241,84 @@
         display: flex;
         flex-direction: column;
         gap: 300px;
+        align-items: center;
+    }
+    .blurbox{
+        text-align: center;;
+        display: flex;
+        gap: 1px;
+        align-content: space-evenly;
+        flex-direction: column;
+        backdrop-filter: blur(0px);
+    }
+    .acepara{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .whatisace{
+       position: relative;
+       left: 5px;
+       top: -20px; 
+    }
+    .carousel{
+        display: none;
+    }
+    .para1{
+        width: 350px;
+    }
+    .whatisaceimage{
+        display: none;
+    }
+    .acepic{
+        display:unset;
+        position: relative;
+        top: -10px;
+    }
+}
+
+/*.blurbox {
+    position: relative;
+    top: -70px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 50px;
+    padding: 50px;
+    border: 100px;
+    text-align: center; 
+    border-radius: 5%;
+    z-index: 1;
+    background-color: rgba(24,26,25,.5);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}*/
+
+.whatisace{
+    position: relative;
+    left: 120px;
+}
+
+.everything{
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.acepic{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    html, body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    body {
+        position: relative;
+    }
+    .everything{
+        display: flex;
+        flex-direction: column;
+        gap: 400px;
         align-items: center;
     }
     .blurbox{

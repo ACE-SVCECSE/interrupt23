@@ -2,11 +2,12 @@ const events =[
     {
         id: 1,
         title: "Joker Coder",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "A coding extravaganza where participants code in turns while battling against a variety of fun distractions",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 2,
             rules:[
+                "Participants are supposed to bring their own laptops.",
                 "Mobile Phones are prohibited inside the event area.",
                 "Participants should have a HackerEarth account.",
                 "The participants aren't allowed to browse any other websites other than HackerEarth.",
@@ -28,7 +29,7 @@ const events =[
     {
         id: 2,
         title: "Darwin Charles",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Devolve (reverse engineer) the given output file to uncover the original code",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 2,
@@ -54,7 +55,7 @@ const events =[
     {
         id: 3,
         title: "Glitch Hunters",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Unravel the clues and conquer the challenge while sharpening your debugging skills",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 2,
@@ -81,7 +82,7 @@ const events =[
     {
         id: 4,
         title: "Present At The Moment",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Where Ideas Make Excellence - as the tagline suggests, the challenges might be daunting, but your excellence is the key",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: "2-3",
@@ -92,7 +93,7 @@ const events =[
             rounds:[
                 "Round 1 will be an online round where people sign up and send in a PowerPoint presentation on the specified domains. \nParticipants are also requested to send a general script on how they will present their PPT on the day of competition if the team feels it is necessary. \nA sample script will be attached for a reference.",
                 `Round 2 will involve the selected teams presenting their PPTs offline, and they will be given 8-10 minutes per presentation. After their presentation, the other competing teams will be allowed to question the idea of that team. \nThe core team of judges will mark the teams on several parameters.
-                \n1. Fluidity in presentation
+                \n 1. Fluidity in presentation
                 \n2. Teamwork
                 \n3. How does the team answer questions?
                 \n4. Feasibility of product (how they bring profit, risk management, ROI, initial investment, etc.)
@@ -119,7 +120,7 @@ const events =[
     {
         id: 5,
         title: "Debate-CH",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "A debate competition where participants argue on a wide range of topics related to the computer science field",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 2,
@@ -154,7 +155,7 @@ const events =[
     {
         id: 6,
         title: "Code Relay",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Take turns completing the code or get left behind in the race",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 3,
@@ -180,7 +181,7 @@ const events =[
     {
         id: 7,
         title: "Crack The Lock",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Solve the hurdles of code  and acquire the key to mystery",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: "1-2",
@@ -207,14 +208,12 @@ const events =[
     {
         id: 8,
         title: "Webworx",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "Challenge your web development skills and pay homage to the pioneers of the internet by recreating a classic website in our event",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: 2,
             rules:[
-                "rule1",
-                "rule1",
-                "rule2"
+                "Participants are supposed to bring their own laptops."
             ],
             rounds:[
                 `The registered teams will be asked to create a replica of the given sample website / website theme using HTML ,CSS, JavaScript.
@@ -235,7 +234,7 @@ Additional credits will be given for showcasing creative skills like animations 
     {
         id: 9,
         title: "Paper Presentation",
-        oneliner: "One Liner 1 - Lorem ipsum dolor sit amet consectetur. Porttitor purus amet libero nibh vel dignissim.",
+        oneliner: "From concept to reality, showcase your unique ideas that address real-world challenges",
         image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
         eventDetails: {
             teamSize: "1-3",

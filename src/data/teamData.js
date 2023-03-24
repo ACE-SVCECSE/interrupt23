@@ -20,7 +20,7 @@ const team = {
 			"pic": "C:/Users/socce/OneDrive/Desktop/wallpapers/fin.jpg/",
 			"position": "Vice President",
 			"bio": "Cold Comfort for Change",
-			"linedin":"https://www.linkedin.com/in/nivedita-palanisamy-4255631b4"
+			"linkedin":"https://www.linkedin.com/in/nivedita-palanisamy-4255631b4"
 
 		},
 		{

@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
 
-const AceCard = ({pic, name, position, bio}) => {
+const AceCard = ({pic, name, position, bio, linkedin}) => {
 	useEffect(() => {
         AOS.init();
       }, []);
@@ -14,10 +14,10 @@ const AceCard = ({pic, name, position, bio}) => {
 						<div style = {{display: "flex", flexDirection: "column", alignItems: "center", alignContent:"flex-start"}}>
 							<img src= "./assets/fin.jpg" height = "150" width = "150" alt="fin" order/>
 							<h2 style = {{display: "flex", justifyContent: "center", flexDirection: "column", textAlign: "center", margin: "10px", letterSpacing: "1.3px", fontWeight: "500"}}>{name}</h2>
-							<h6 style = {{margin: "-5px"}}>{position}</h6>
+							<h6 style = {{margin: "-5px", fontSize: "1.2rem"}}>{position}</h6>
 							<div className={styles.socials }>
 								<h6>{bio}</h6>
-								<div className={styles.socials2}><img src="/assets/87390.png" alt ="insta" width="20px" height="20px" style={{ alignSelf: "center" }} /><img src= "/assets/linkedin.png" alt="linkedin" width = "20px" height = "20px" style = {{alignSelf: "center"}}/></div>
+								<div className={styles.socials2}><a href={linkedin}><img src= "/assets/linkedin.png" alt="linkedin" width = "20px" height = "20px" style = {{alignSelf: "center"}}/></a></div>
 							</div>
 						</div> 
 					</div>

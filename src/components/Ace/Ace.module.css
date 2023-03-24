@@ -54,19 +54,28 @@
     width: 290px;
     height: 415px;
     transition: transform .2s;
+    position: relative;
 }
 
 .socials {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: center;
 }
 
 .socials2 {
+    position: absolute;
+    bottom: 5%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    width: 100%;
+}
+
+.socials2 img{
+    width: 25px;
+    height: 25px;
 }
 
 .blurbox {

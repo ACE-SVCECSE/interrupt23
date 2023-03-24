@@ -1,3 +1,21 @@
-.red {
-    color: red;
+.contact, .contact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.contact h1{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.contact .anchor{
+    text-decoration: none;
+    color: #f9f871;
+}
+
+.contact button:hover .anchor{
+    color: #181a19;
 }

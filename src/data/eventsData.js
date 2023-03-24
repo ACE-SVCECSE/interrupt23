@@ -3,7 +3,7 @@ const events =[
         id: 1,
         title: "Joker Coder",
         oneliner: "A coding extravaganza where participants code in turns while battling against a variety of fun distractions",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/JokerCoder.jpg",
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -30,7 +30,7 @@ const events =[
         id: 2,
         title: "Darwin Charles",
         oneliner: "Devolve (reverse engineer) the given output file to uncover the original code",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/DarwinCharles.webp",
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -56,7 +56,7 @@ const events =[
         id: 3,
         title: "Glitch Hunters",
         oneliner: "Unravel the clues and conquer the challenge while sharpening your debugging skills",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/GlitchHunters.png",
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -83,7 +83,7 @@ const events =[
         id: 4,
         title: "Present At The Moment",
         oneliner: "Where Ideas Make Excellence - as the tagline suggests, the challenges might be daunting, but your excellence is the key",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/Presentatthemoment.jpg",
         eventDetails: {
             teamSize: "2-3",
             rules:[
@@ -121,7 +121,7 @@ const events =[
         id: 5,
         title: "Debate-CH",
         oneliner: "A debate competition where participants argue on a wide range of topics related to the computer science field",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/Debate-ch.jpg",
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -156,7 +156,7 @@ const events =[
         id: 6,
         title: "Code Relay",
         oneliner: "Take turns completing the code or get left behind in the race",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/CodeRelay.jpg",
         eventDetails: {
             teamSize: 3,
             rules:[
@@ -182,7 +182,7 @@ const events =[
         id: 7,
         title: "Crack The Lock",
         oneliner: "Solve the hurdles of code  and acquire the key to mystery",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/CracktheLock.jpg",
         eventDetails: {
             teamSize: "1-2",
             rules:[
@@ -209,7 +209,7 @@ const events =[
         id: 8,
         title: "Webworx",
         oneliner: "Challenge your web development skills and pay homage to the pioneers of the internet by recreating a classic website in our event",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/WebWorx.png",
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -235,7 +235,7 @@ Additional credits will be given for showcasing creative skills like animations 
         id: 9,
         title: "Paper Presentation",
         oneliner: "From concept to reality, showcase your unique ideas that address real-world challenges",
-        image: "https://thumbs.dreamstime.com/b/technical-support-customer-service-business-technology-internet-concept-154148058.jpg",
+        image: "/assets/events/PaperPresentation.jpg",
         eventDetails: {
             teamSize: "1-3",
             rules:[

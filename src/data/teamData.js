@@ -1,7 +1,7 @@
 const team = {
     exeMembers: [
 		{
-			"name":"Ritunjay V.",
+			"name":"Ritunjay M",
 			"pic": "/assets/ace_photos/core_team/ritunjay.jpg",
 			"position": "President",
 			"bio": "Life is a killer !! Kill it, before it kills you !!",
@@ -16,7 +16,7 @@ const team = {
 			"linkedin":"https://www.linkedin.com/in/allenmanoj"
 		},
 		{
-			"name":"Nivedita P.",
+			"name":"Nivedita V P",
 			"pic": "/assets/ace_photos/core_team/nivedita.png",
 			"position": "Vice President",
 			"bio": "Cold Comfort for Change",
@@ -31,7 +31,7 @@ const team = {
 			"linkedin":"http://www.linkedin.com/in/shivaneeramesh"
 		},
 		{
-			"name":"Swetha A.",
+			"name":"Swetha A",
 			"pic": "/assets/ace_photos/core_team/swetha.jpg",
 			"position": "Secretary",
 			"bio": "There is no Ctrl-Z in life,when all else fails,just reboot!",
@@ -39,7 +39,7 @@ const team = {
 
 		},
 		{
-			"name":"Adithyarajen R.",
+			"name":"Adithyarajen R",
 			"pic": "/assets/ace_photos/core_team/adithyarajen.jpg",
 			"position": "Treasurer",
 			"bio": "Cars, Games, Techs, Adrenaline Pumping, Travelling, Music (No particular order)",
@@ -47,7 +47,7 @@ const team = {
 
 		},
 		{
-			"name":"Aadesh Vijayaraghavan",
+			"name":"Aadesh VijayaRaghavan",
 			"pic": "/assets/ace_photos/core_team/aadesh.jpeg",
 			"position": "Operations Head",
 			"bio": "If you want Peace, Prepare for War.",
@@ -55,7 +55,7 @@ const team = {
 
 		},
 		{
-			"name":"Sahana B.",
+			"name":"Sahana B",
 			"pic": "/assets/ace_photos/core_team/sahana.jpg",
 			"position": "Joint secretary",
 			"bio": "An outgoing person having great appetite to unearth new challenges and experiences.",
@@ -63,7 +63,7 @@ const team = {
 
 		},
 		{
-			"name":"Pooja T.",
+			"name":"Pooja T",
 			"pic": "/assets/ace_photos/core_team/pooja_t.jpg",
 			"position": "Executive Member",
 			"bio": "When nothing goes right, go left.",
@@ -87,7 +87,7 @@ const team = {
 
 		},
 		{
-			"name":"Swetha Shakthi U",
+			"name":"Swetha Sakthi U",
 			"pic": "/assets/ace_photos/core_team/swetha_sakthi.jpg",
 			"position": "Executive Member",
 			"bio": "Always end up where I’m meant to be. 💫",
@@ -174,7 +174,7 @@ const team = {
 
     desTeam : [
 		{
-			"name":"Vempali Dharani",
+			"name":"Vempalli Dharani",
 			"pic": "/assets/ace_photos/design_team/dharani.jpg",
 			"position": "Design Team",
 			"bio": "Eagerness in learning ",
@@ -188,7 +188,7 @@ const team = {
 			"linkedin":"https://www.linkedin.com/public-profile/settings"
 		},
 		{
-			"name":"SIBI MUGHIL T",
+			"name":"Sibi Mughil T",
 			"pic": "/assets/ace_photos/design_team/sibi.jpg",
 			"position": "Design Team",
 			"bio": "I’m the most awesome person I know.",

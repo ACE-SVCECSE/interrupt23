@@ -28,7 +28,6 @@ function Event(props) {
 				</ol>
 				<h1 className={styles.teamSize}>Team size of : {event.eventDetails.teamSize}</h1>
 				<p className={styles.deadlineText}><span className={styles.boldTxt}>Judging criteria</span> : {event.eventDetails.judging}</p>
-				<p className={styles.deadlineText}><span className={styles.boldTxt}>Deadline to Register</span> : 5th May 2021, 11:59 p.m.</p>
 				<a href={event.eventDetails.registerLink} target="_blank" rel="noopener noreferrer" className={styles.registerBtn}>REGISTER</a>
 				<div>
 				<h2 className={styles.subHeading}>For any queries, contact</h2>

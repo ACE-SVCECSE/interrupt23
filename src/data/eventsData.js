@@ -18,7 +18,7 @@ const events =[
                 "Each team will be given a set of 3 unique problem statements. Swaps will be made amongst the team members every 5 minutes. The participant who is not coding after every swap will be asked to do some fun tasks like playing “Red light, green light”, drinking “magic potions”, ”replicating signature poses”, etc. Loud music will be played throughout the event. The team members are expected to code for the given problem statement within the time limit by overcoming the hindrances."
             ],
             judging: "The winner will be chosen based on the number of problem statements  solved and the time within which they are solved.",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/YSvL9hDz6mPBV5tr6",
             contact: {
                 "Swetha A:" : "+91 73057 08980",
@@ -44,7 +44,7 @@ const events =[
                 "This event is based on reverse engineering, where participants are asked to find the logic behind the program when only the exe file is given to them. The sample input and output formats will be displayed on the HackerEarth contest page, using which the participants have to find the logic."
             ],
             judging: "The team that solves all the questions in the least amount of time will be the winner.",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/X8Z3Swbk2Yj2f25s9",
             contact: {
                 "Karthick.K:" : "+91 94448 53879",
@@ -71,7 +71,7 @@ const events =[
                 "This is a debugging round where a crossword puzzle will be provided. The task is to find the final answer from the crossword which reveals the hackerearth link to the participants. Both the participants will solve the crossword but only one participant will be allowed to debug at a time and he/she will be swapped with his/her team mate for every 10 minutes."
             ],
             judging: "The team which solves the crossword and debugs all the questions in the HackerEarth link first will be the winner.",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/baYjZyU6i2cZKyiz6",
             contact: {
                 "Pooja T:" : "+91 63805 098279",
@@ -111,7 +111,7 @@ const events =[
 
             ],
             judging: "1.Fluidity in presentation2.Teamwork3.How does the team answer questions?",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/t4Dw6QeS6AZHXQ9w7",
             contact: {
                 "Aparajitha P:" : "+91 93845 37755",
@@ -146,7 +146,7 @@ const events =[
             
             After which the best team  will be announced
             `,
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/V57e3S83DUmK38wP7",
             contact: {
                 "Aadesh Vijayaraghavan:" : "+91 9445748056",
@@ -172,7 +172,7 @@ const events =[
                 "The teams are given an error-ridden html file and are expected to modify the code such that it displays the desired visual output. 18 minutes are given in total, with each teammate having 6 minutes to do their part. No time will be given at the end for working together."
             ],
             judging: "For the first round, writing functional, error-free code within the 12+2 minutes alone is enough to qualify. However, for the second and third rounds, the team that has functional code and finishes first wins",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/bh8Y81eFF1xjEFou8",
             contact: {
                 "Deepak Srinivas M:" : "+91 89257 44554 ",
@@ -199,7 +199,7 @@ const events =[
                 `
             ],
             judging: "The team that unlocks within the least amount of trials is declared the winner.",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/3mZA1UxyikwgoRp59",
             contact: {
                 "Sahana B:" : "+91 78248 82255 ",
@@ -225,7 +225,7 @@ Additional credits will be given for showcasing creative skills like animations 
             2)Responsiveness of the website
             3)Code
             4)Additional animations used`,
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/SXdJ488ZcCDtRWkc9",
             contact: {
                 "Sanjana J:" : "+91 96770 25403",
@@ -277,7 +277,7 @@ Additional credits will be given for showcasing creative skills like animations 
                 "Participants should present their innovative skills and ideas as a paper with a working model. It can be based on their Research projects, Final year projects or Mini projects. Each team will be given 15 minutes for their presentation."
             ],
             judging: "The winner will be decided based on the uniqueness of their idea , its implementation and the way of presentation.",
-            deadline:"5th May 2021, 11:59 p.m",
+          
             registerLink: "https://forms.gle/okQgtfzv8fgowvfj6",
             contact: {
                 "Sharan Balaji S:" : "+91 82209 69058",

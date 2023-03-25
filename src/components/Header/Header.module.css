@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 .nav .logo{
-   padding: 10px 20px 20px 10px;
+   padding-right: 20px;
 }
 
 .nav .logo img{
@@ -35,7 +35,7 @@ body {
 .nav .navmenu li{
     padding:10px;
     font-size: x-large ; 
-    font-family:  'Playfair Display',sans-serif;    ;
+    font-family: 'Poppins', sans-serif;
        
 }
 .nav .navmenu li a{

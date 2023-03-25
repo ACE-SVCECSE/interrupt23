@@ -11,15 +11,18 @@ const AceCard = ({pic, name, position, bio, linkedin}) => {
 			<>
 				<div data-aos = "zoom-in-up" data-aos-once="true"  data-aos-delay="100">
 					<div className={styles.infoBox}>
-						<div style = {{display: "flex", flexDirection: "column", alignItems: "center", alignContent:"flex-start"}}>
-							<img src= {pic} height = "150" width = "150" alt={name} order/>
-							<h2 style = {{display: "flex", justifyContent: "center", flexDirection: "column", textAlign: "center", margin: "10px", letterSpacing: "1.3px", fontWeight: "500", fontSize: "1.3rem"}}>{name}</h2>
-							<h6 style = {{margin: "-5px", fontSize: "1.2rem"}}>{position}</h6>
-							<div className={styles.socials }>
-								<h6>{bio}</h6>
-								<div className={styles.socials2}><a href={linkedin}><img src= "/assets/linkedin.png" alt="linkedin" width = "20px" height = "20px" style = {{alignSelf: "center"}}/></a></div>
+						<div className={styles.container}>
+							<div className={styles.frame}></div>
+							<div className={styles.colorBox}>
+								<a href={linkedin}><img src="/assets/linkedin.png" alt="linkedin"></img></a>
 							</div>
-						</div> 
+							<img src={pic} alt={name}></img>
+						</div>
+						<div className={styles.content}>
+							<p>{name}</p>
+							<p style={{color:"#f9f871"}}>{position}</p>
+							<p>{bio}</p>
+						</div>				
 					</div>
 				</div>
 			</>

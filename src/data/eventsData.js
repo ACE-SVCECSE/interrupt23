@@ -67,8 +67,8 @@ const events =[
 
             ],
             rounds:[
-                "This is an MCQ Round related to programming concepts, syntax, and semantics.\nThe top 10 teams will be selected for Round 2 based on speed and the number of correct answers",
-                "This is a debugging round where a crossword puzzle will be provided. \nThe task is to find the final answer from the crossword which reveals the hackerearth link to the participants. \nBoth the participants will solve the crossword but only one participant will be allowed to debug at a time and he/she will be swapped with his/her team mate for every 10 minutes."
+                "This is an MCQ Round related to programming concepts, syntax, and semantics.The top 10 teams will be selected for Round 2 based on speed and the number of correct answers",
+                "This is a debugging round where a crossword puzzle will be provided. The task is to find the final answer from the crossword which reveals the hackerearth link to the participants. Both the participants will solve the crossword but only one participant will be allowed to debug at a time and he/she will be swapped with his/her team mate for every 10 minutes."
             ],
             judging: "The team which solves the crossword and debugs all the questions in the HackerEarth link first will be the winner.",
             deadline:"5th May 2021, 11:59 p.m",
@@ -88,27 +88,29 @@ const events =[
             teamSize: "2-3",
             rules:[
                 "Mobile Phones are prohibited inside the event area except for round 3.",
-                "Participants must maintain decorum during the event."
+                "Participants must maintain decorum during the event.",
+                "Last date to submit abstract: 30th March 2023-10:00 A.M.",
+                "Be ready for a surprise because we are going to put your impromptu skills to the test."
             ],
             rounds:[
-                "Round 1 will be an online round where people sign up and send in a PowerPoint presentation on the specified domains. \nParticipants are also requested to send a general script on how they will present their PPT on the day of competition if the team feels it is necessary. \nA sample script will be attached for a reference.",
-                `Round 2 will involve the selected teams presenting their PPTs offline, and they will be given 8-10 minutes per presentation. After their presentation, the other competing teams will be allowed to question the idea of that team. \nThe core team of judges will mark the teams on several parameters.
-                \n 1. Fluidity in presentation
-                \n2. Teamwork
-                \n3. How does the team answer questions?
-                \n4. Feasibility of product (how they bring profit, risk management, ROI, initial investment, etc.)
-                \n5. Drive of the team and their idea behind it.
-                \nTopics for Round 1 and 2:
-                    \n1. Education
-                    \n2. Medical
-                    \n3. Sports and fitness
-                    \n4. E commerce
-                    \n5. Entertainment
-                    \n6. Antivirus systems`,
-                "3-4 teams will be chosen as winners from round 2 and they will be allowed to bid and choose from 5 preplanned and pre-made PPT. \nTeams will be marked on how well they are able to debate the given topics using the PowerPoint. The topics for this round come under the following domains:  AI, Computation and Data security."
+                "Round 1 will be an online round where people sign up and send in a PowerPoint presentation on the specified domains. Participants are also requested to send a general script on how they will present their PPT on the day of competition if the team feels it is necessary. A sample script will be attached for a reference.",
+                `Round 2 will involve the selected teams presenting their PPTs offline, and they will be given 8-10 minutes per presentation. After their presentation, the other competing teams will be allowed to question the idea of that team. The core team of judges will mark the teams on several parameters.
+                1. Fluidity in presentation
+                2. Teamwork
+                3. How does the team answer questions?
+                4. Feasibility of product (how they bring profit, risk management, ROI, initial investment, etc.)
+                5. Drive of the team and their idea behind it.
+                Topics for Round 1 and 2:
+                    1. Education
+                    2. Medical
+                    3. Sports and fitness
+                    4. E commerce
+                    5. Entertainment
+                    6. Antivirus systems`,
+                "3-4 teams will be chosen as winners from round 2 and they will be allowed to bid and choose from 5 preplanned and pre-made PPT. Teams will be marked on how well they are able to debate the given topics using the PowerPoint. The topics for this round come under the following domains:  AI, Computation and Data security."
 
             ],
-            judging: "\n1.Fluidity in presentation\n2.Teamwork\n3.How does the team answer questions?",
+            judging: "1.Fluidity in presentation2.Teamwork3.How does the team answer questions?",
             deadline:"5th May 2021, 11:59 p.m",
             registerLink: "https://forms.gle/t4Dw6QeS6AZHXQ9w7",
             contact: {
@@ -241,7 +243,33 @@ Additional credits will be given for showcasing creative skills like animations 
             rules:[
                 "Plagiarism is strictly prohibited.",
                 "Participants must maintain decorum during the event.",
-                "The judge's decision will be final."
+                "The judge's decision will be final.",
+                `TOPICS OF INTEREST:
+                Topics of interest for the event include, but are not restricted to:                
+                Artificial Intelligence (AI),                
+                Machine Learning,                
+                Deep/Continual/Adversarial learning,                
+                Pattern Recognition,                
+                Bioinformatics,                
+                Cognitive Modelling,                
+                Intelligent Systems,                
+                Text, Speech, Image and Video Processing and Analysis,                
+                Data Mining, Signal Processing,                
+                Healthcare, Assistive Technologies,                
+                Internet of Things (IoT),                
+                Big data Engineering,                
+                Cloud Computing,                
+                Information Management Systems,
+                Internet Technologies,                
+                Virtualization and Containerization,                
+                Block Chain Technology,                
+                Green Networks,                
+                Cyber Security,                
+                Network Security,                
+                Cyber criminology,                
+                Social networks and digital security,                
+                Cloud Security and Privacy.                
+                Last date to submit abstract: 30th March 2023-10:00 A.M`
 
             ],
             rounds:[

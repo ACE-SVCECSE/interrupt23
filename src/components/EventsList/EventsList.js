@@ -44,7 +44,7 @@ function EventsList() {
     const events = getEvents();
 	return (
         <div className="EventList" style={{minHeight:"85vh"}}>
-            <Title heading="EVENTS" desc="Lorem ipsum dolor"></Title>
+            <Title heading="EVENTS"></Title>
             <Slider {...settings} className={ styles.list}>
                 {events.map((event)=><EventCard data={event}></EventCard>)}
             </Slider>        

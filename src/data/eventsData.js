@@ -121,7 +121,7 @@ const events =[
     },
     {
         id: 5,
-        title: "DebaTe-CH",
+        title: "DebaTe-ch",
         oneliner: "A debate competition where participants argue on a wide range of topics related to the computer science field",
         image: "/assets/events/Debate-ch.jpg",
         eventDetails: {

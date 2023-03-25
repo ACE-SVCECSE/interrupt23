@@ -15,12 +15,13 @@
 }
 
 .heading::after{
-  content: "National-level Technical Symposium";
+  content: "National-level Technical Symposium on March 31st, 2023";
   font-size: 1.3rem;
   display: block;
   text-align: right;
   color: #f9f871;
 }
+
 .subHeading{
   margin: 0 0 1rem 5%;
   display: flex;

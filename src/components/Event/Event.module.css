@@ -3,14 +3,12 @@ body {
     padding: 0;  
   }
 .flexContainer{
-     background-color: #181a19; 
       display: flex;
       overflow: hidden;
       text-align: justify;
   }
   
 .textContainer{
-      background-color: #181a19;
       padding: 30px;
       width: 50%;
       margin: 0 50px;

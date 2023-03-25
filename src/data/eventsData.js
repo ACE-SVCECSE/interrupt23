@@ -30,7 +30,7 @@ const events =[
         id: 2,
         title: "Darwin Charles",
         oneliner: "Devolve (reverse engineer) the given output file to uncover the original code",
-        image: "/assets/events/DarwinCharles.webp",
+        image: "/assets/events/DarwinCharles.jpg",
         eventDetails: {
             teamSize: 2,
             rules:[

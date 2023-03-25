@@ -88,7 +88,7 @@ const team = {
 		},
 		{
 			"name":"Swetha Shakthi U",
-			"pic": "/assets/ace_photos/core_team/",
+			"pic": "/assets/ace_photos/core_team/swetha_sakthi.jpg",
 			"position": "Executive Member",
 			"bio": "Always end up where I’m meant to be. 💫",
 			"linkedin":"https://www.linkedin.com/mwlite/in/swetha-sakthi-990297213"
@@ -182,7 +182,7 @@ const team = {
 		},
 		{
 			"name":"Taruna Indrajith",
-			"pic": "/assets/ace_photos/design_team/",
+			"pic": "/assets/ace_photos/design_team/taruna.jpg",
 			"position": "Design Team",
 			"bio": "Beautiful things don't ask for attention ",
 			"linkedin":"https://www.linkedin.com/public-profile/settings"

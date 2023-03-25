@@ -13,6 +13,7 @@ body {
 .nav {
     display:flex;
     flex-direction:row ;
+    justify-content: space-between;
     align-items: center;
 }
 .nav .logo{
@@ -74,7 +75,7 @@ body {
         position: fixed;
         z-index:3;
         left: 0;
-        top:4.5rem;
+        top:150px;
         flex-direction: column;
         background-color: #282a29;
         width: 100%;

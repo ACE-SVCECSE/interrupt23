@@ -39,7 +39,7 @@ const Ace = () => {
 									<div style = {{textAlign: 'center'}}>
 										<hr />
 										<h1>Team 2022 - 2023</h1>
-										<h4 className = {styles.para1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra.</h4>
+										<h4 className = {styles.para1}>The core members work to ensure that the club operates smoothly and achieves its goals and objectives. They collaborate to plan and execute events, manage finances, maintain accurate records, and promote the club to the campus community. </h4>
 									</div>
 									<div className={styles.profile }>
 										{team.exeMembers.map(member => <p><AceCard pic = {member.pic} name = {member.name.toUpperCase()} position = {member.position} bio = {member.bio} linkedin = {member.linkedin}/></p>)}
@@ -50,7 +50,7 @@ const Ace = () => {
 								<div className = {styles.teamstruct}>
 									<div style = {{textAlign: 'center'}}>
 										<h1>Design Team</h1>
-											<h4 className = {styles.para1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra.</h4>
+											<h4 className = {styles.para1}>The design team plays a crucial role in creating and producing various materials such as posters, certificates, flyers, and other visual aids that promote the club and its activities.</h4>
 									</div>
 									<div className={styles.profile }>
 										{team.desTeam.map(member => <p><AceCard pic = {member.pic} name = {member.name.toUpperCase()} position = {member.position} bio = {member.bio} linkedin = {member.linkedin}/></p>)}
@@ -61,7 +61,7 @@ const Ace = () => {
 								<div className = {styles.teamstruct}>
 									<div style = {{textAlign: 'center'}}>
 										<h1>Web Team</h1>
-											<h4 className = {styles.para1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia, nisl eu rhoncus auctor, lacus libero tincidunt dui, in consectetur lorem arcu ut ex. Praesent tristique nisi quis metus rutrum sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pharetra mi. Curabitur et metus congue, aliquet metus sit amet, condimentum elit. Sed accumsan risus lacinia turpis accumsan pharetra.</h4>
+											<h4 className = {styles.para1}>The web team is responsible for creating and maintaining a functional and attractive website that accurately reflects the club's activities and achievements, while promoting the club to the wider campus community. They also design and maintain any event-specific websites.</h4>
 									</div>
 									<div className={styles.profile }>
 										{team.webTeam.map(member => <p><AceCard pic = {member.pic} name = {member.name.toUpperCase()} position = {member.position} bio = {member.bio} linkedin = {member.linkedin}/></p>)}

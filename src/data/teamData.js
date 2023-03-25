@@ -17,7 +17,7 @@ const team = {
 		},
 		{
 			"name":"Nivedita P.",
-			"pic": "/assets/ace_photos/core_team/nivedita.jpg",
+			"pic": "/assets/ace_photos/core_team/nivedita.png",
 			"position": "Vice President",
 			"bio": "Cold Comfort for Change",
 			"linkedin":"https://www.linkedin.com/in/nivedita-palanisamy-4255631b4"

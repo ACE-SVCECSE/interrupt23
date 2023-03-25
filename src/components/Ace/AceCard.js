@@ -9,11 +9,11 @@ const AceCard = ({pic, name, position, bio, linkedin}) => {
       }, []);
 	return(
 			<>
-				<div data-aos = "zoom-in-up" data-aos-once="true"  data-aos-delay="800">
+				<div data-aos = "zoom-in-up" data-aos-once="true"  data-aos-delay="100">
 					<div className={styles.infoBox}>
 						<div style = {{display: "flex", flexDirection: "column", alignItems: "center", alignContent:"flex-start"}}>
-							<img src= "./assets/fin.jpg" height = "150" width = "150" alt="fin" order/>
-							<h2 style = {{display: "flex", justifyContent: "center", flexDirection: "column", textAlign: "center", margin: "10px", letterSpacing: "1.3px", fontWeight: "500"}}>{name}</h2>
+							<img src= {pic} height = "150" width = "150" alt={name} order/>
+							<h2 style = {{display: "flex", justifyContent: "center", flexDirection: "column", textAlign: "center", margin: "10px", letterSpacing: "1.3px", fontWeight: "500", fontSize: "1.3rem"}}>{name}</h2>
 							<h6 style = {{margin: "-5px", fontSize: "1.2rem"}}>{position}</h6>
 							<div className={styles.socials }>
 								<h6>{bio}</h6>

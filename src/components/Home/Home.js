@@ -27,7 +27,7 @@ function Home() {
 			</div>
 				
 			<div className={styles.right} ref={el => right = el}>
-				<img src='/assets/ace_home.JPG' alt='img'></img>
+				<img src='/assets/ace_home.jpeg' alt='img'></img>
 			</div>			
 		</div>
 	</div>

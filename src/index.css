@@ -1,12 +1,14 @@
 body {
-    background-color: #181a19;
+    background-image: url("/public/assets/background.png");
+    background-size: contain;
+    background-attachment: fixed;
     color: #c9cccb;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .EventList .slick-slider{

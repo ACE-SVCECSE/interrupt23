@@ -1,6 +1,6 @@
 .event_card {
     margin-right: 5%;
-    height: 400px;
+    min-height: 500px;
     background-color: #181a19;
     display: flex;
     flex-direction: column;

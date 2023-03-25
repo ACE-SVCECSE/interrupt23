@@ -3,31 +3,33 @@ body {
     
 }
 .headerwrap{ 
-    border-bottom: 2px solid #737574;
-    background-color: #181a19;  
-    padding:25px; 
+    padding:15px; 
 }
+
+/* .line{
+    border: 1px solid #c9cccb;
+    width: 80%;
+} */
 .nav {
     display:flex;
     flex-direction:row ;
     align-items: center;
-    justify-content: space-between;
-    max-height: 20px;
 }
 .nav .logo{
-    padding-top: 10px;
-    padding-left: 20px;
+   padding: 10px 20px 20px 10px;
 }
 
 .nav .logo img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    height:50px
+    height:100px
 }   
 .nav .navmenu{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    list-style-type: none;  
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid #c9cccb;
 }
 .nav .navmenu li{
     padding:10px;

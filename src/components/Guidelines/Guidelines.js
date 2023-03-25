@@ -8,25 +8,35 @@ function Guidelines() {
 			<div className={styles.ruleswrapper}>
 				<Title heading="GUIDELINES" component="Guidelines"></Title>
 				<div className={styles.subheading}>
-					Dear participants, here are some very important rules and regulations that you need to follow for Hackerrupt'22
+					Dear participants, here are some very important rules and regulations that you need to follow for Interrupt'23
 				</div>
 				<div className={styles.rules}>
-					1. Your college id card is mandatory for the event. You will not be permitted in without your ID card.<br></br>
-					2. Covid vaccination certificate is mandatory for the final round.<br></br>
-					3. WiFi will be provided but you can also bring your own dongle or use your own internet.<br></br>
-					4. Participants are requested to bring their own laptops, chargers, pen drives, hardware components and other accessories.<br></br>
-					&emsp;We advise you to take care of them and the ACE team will not be responsible for your personal belongings.<br></br>
-					5. Participants are requested to pre-install all their required softwares as heavy downloading of large files might not be possible.<br></br>
-                    6. You can also bring blankets or pillows in case it gets cold or you need to take a nap.<br></br>
-					7 .Also please note the dress code for the hackathon<br></br>
-					&emsp;&emsp;&emsp;&#10153; Boys: Shorts are not allowed<br></br>
-					&emsp;&emsp;&emsp;&#10153; Girls: Sleeveless clothings are not allowed<br></br>
-					&emsp;&emsp;&emsp;&#10153; Please ensure that you follow the dress code and avoid inappropriate dressing.<br></br>
-					8. All teams are requested to start their projects strictly at the venue and during the hackathon.
+					<ol>
+						<li>All participants must carry your college ID card and must wear the ID card given by us for the entire duration of the symposium.</li>
+						<li>Usage of mobile phones is restricted inside the campus.</li>
+						<li>Avoid taking photos/selfie inside the campus.</li>
+					</ol>
+					<h3>Participants are expected to follow the dress code as follows:</h3>
+					<ol>
+						<li>For girls, Salwar Kameez with Duppatta, Jeans with Kurtis and stole is advisable.</li>
+						<li>For boys, Torn, faded jeans, T-Shirts will NOT be allowed.</li>
+					</ol>
+					<h3>General information:</h3>
+					<ol>
+						<li>Registration for the participants begins at 8:30 am.</li>
+						<li>All participants are requested to register online and produce your college ID card and confirm your participation at the registration desk. Registration will close by 9.30am.</li>
+						<li>All the preliminary rounds will be starting at 9:30 am.</li>
+						<li>Participants can avail the college transport during the day of symposium.</li>
+						<li>Lunch and refreshments can be availed in the college canteen on payment.</li>
+						<li>Judges decision will be final for the events.</li>
+						<li>Don’t involve in indisciplinary actions in the college premises.</li>
+						<li>Overcrowding or loitering should be strictly avoided in the college premises.</li>
+						<li>Participation in events will be disqualified if the general and event rules are not followed by the participants</li>
+					</ol>
+
 				</div>
 				<div className={styles.endnote}>
 				Also teams violating our rules and indulging in other unprofessional activities will be disqualified on the spot without any question.<br></br>
-				We hope you have a safe journey, looking forward to meeting you at Hackerrupt'22 on 8th and 9th October!
 				</div>
 				<div className={styles.regards}>
 					With regards,<br></br>&ensp;ACE team

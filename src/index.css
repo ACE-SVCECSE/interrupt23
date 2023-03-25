@@ -23,16 +23,32 @@ h1 {
 .EventList .slick-prev{
         left:-6%;
 }
-    .EventList .slick-next {
+.EventList .slick-next {
         right: -2%;
-    }
+}
 
-
-
-    .EventList .slick-next::before, .EventList .slick-prev::before {
+.EventList .slick-next::before, .EventList .slick-prev::before {
         font-size: 50px;
         color: #f9f871;
-    }
+}
+
+#home #title p{
+    font-size: 1.2rem;
+}
+
+#home #title h1{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home #title h1::after{
+    content: "Association of Computer Engineers";
+    padding-left: 5%;
+    font-size: 1.3rem;
+    display: block;
+    color: #f9f871;
+}
 
 
 @media (max-width:992px){

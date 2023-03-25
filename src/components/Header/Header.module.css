@@ -22,7 +22,8 @@ body {
 
 .nav .logo img{
     height:100px
-}   
+} 
+
 .nav .navmenu{
     display: flex;
     justify-content: flex-end;
@@ -102,6 +103,10 @@ body {
 
     .nav .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav .svcelogo img{
+        display: none;
     }
 
 }

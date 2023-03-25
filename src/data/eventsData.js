@@ -32,7 +32,7 @@ const events =[
         oneliner: "Devolve (reverse engineer) the given output file to uncover the original code",
         image: "/assets/events/DarwinCharles.jpg",
         eventDetails: {
-            teamSize: 2,
+            teamSize: "Individual or 2",
             rules:[
                 "Mobile phones are prohibited inside the event area.",
                 "The participants are allowed to run only the terminal and the HackerEarth website. They aren't allowed to browse any other websites.",
@@ -121,7 +121,7 @@ const events =[
     },
     {
         id: 5,
-        title: "Debate-CH",
+        title: "DebaTe-CH",
         oneliner: "A debate competition where participants argue on a wide range of topics related to the computer science field",
         image: "/assets/events/Debate-ch.jpg",
         eventDetails: {
@@ -280,8 +280,8 @@ Additional credits will be given for showcasing creative skills like animations 
           
             registerLink: "https://forms.gle/okQgtfzv8fgowvfj6",
             contact: {
-                "Sharan Balaji S:" : "+91 82209 69058",
-                "Manoj Kumar S" : "+91 94444 31042"
+                "Sharan Balaji S:" : "+91 94444 31042",
+                "Manoj Kumar S" : ":+91 82209 69058"
             }
         }
     }

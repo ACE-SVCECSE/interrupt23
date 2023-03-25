@@ -1,0 +1,71 @@
+.footer{
+    padding: 5% 5% 2% 5% ;
+}
+
+.footer .contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .contact>img{
+    align-self: center;
+}
+
+.contact h1{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.contact>div:nth-child(3) a{
+    color: #c9cccb;
+}
+
+.contact .anchor{
+    text-decoration: none;
+    color: #f9f871;
+}
+
+.contact button{
+    display: block;
+    margin: 5% 0;
+}
+
+.contact button:hover .anchor{
+    color: #181a19;
+}
+
+.footer>p{
+    text-align: center;
+}
+
+.footer>hr{
+    border: 1px solid #f9f871;
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .footer .contact>img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .contact>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .contact>div:first-child{
+        order: 2;
+    }
+
+    .footer .contact h1{
+        text-align: center;
+    }
+}

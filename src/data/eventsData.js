@@ -19,7 +19,7 @@ const events =[
             ],
             judging: "The winner will be chosen based on the number of problem statements  solved and the time within which they are solved.",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/YSvL9hDz6mPBV5tr6",
             contact: {
                 "Swetha A:" : "+91 73057 08980",
                 "Adithyarajen R" : "+91 72000 36383"
@@ -45,7 +45,7 @@ const events =[
             ],
             judging: "The team that solves all the questions in the least amount of time will be the winner.",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/X8Z3Swbk2Yj2f25s9",
             contact: {
                 "Karthick.K:" : "+91 94448 53879",
                 "Vishnuvardan.A" : "+91 72992 13502"
@@ -72,7 +72,7 @@ const events =[
             ],
             judging: "The team which solves the crossword and debugs all the questions in the HackerEarth link first will be the winner.",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/baYjZyU6i2cZKyiz6",
             contact: {
                 "Pooja T:" : "+91 63805 098279",
                 "Hema A" : "+91 93631 35243"
@@ -110,7 +110,7 @@ const events =[
             ],
             judging: "\n1.Fluidity in presentation\n2.Teamwork\n3.How does the team answer questions?",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/t4Dw6QeS6AZHXQ9w7",
             contact: {
                 "Aparajitha P:" : "+91 93845 37755",
                 "Adithya Vikas A" : "+91 90808 92957"
@@ -145,7 +145,7 @@ const events =[
             After which the best team  will be announced
             `,
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/V57e3S83DUmK38wP7",
             contact: {
                 "Aadesh Vijayaraghavan:" : "+91 9445748056",
                 "Preethi Purnimaa K" : "+91 70102 71753"
@@ -171,7 +171,7 @@ const events =[
             ],
             judging: "For the first round, writing functional, error-free code within the 12+2 minutes alone is enough to qualify. However, for the second and third rounds, the team that has functional code and finishes first wins",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/bh8Y81eFF1xjEFou8",
             contact: {
                 "Deepak Srinivas M:" : "+91 89257 44554 ",
                 "Dhanrithii D" : "+91 87542 03069"
@@ -198,7 +198,7 @@ const events =[
             ],
             judging: "The team that unlocks within the least amount of trials is declared the winner.",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/3mZA1UxyikwgoRp59",
             contact: {
                 "Sahana B:" : "+91 78248 82255 ",
                 "Naafiah Yusra A" : "+91 93618 87936"
@@ -224,7 +224,7 @@ Additional credits will be given for showcasing creative skills like animations 
             3)Code
             4)Additional animations used`,
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/SXdJ488ZcCDtRWkc9",
             contact: {
                 "Sanjana J:" : "+91 96770 25403",
                 "Siva Ishwarya B " : "+91 70100 51339"
@@ -250,7 +250,7 @@ Additional credits will be given for showcasing creative skills like animations 
             ],
             judging: "The winner will be decided based on the uniqueness of their idea , its implementation and the way of presentation.",
             deadline:"5th May 2021, 11:59 p.m",
-            registerLink: "",
+            registerLink: "https://forms.gle/okQgtfzv8fgowvfj6",
             contact: {
                 "Sharan Balaji S:" : "+91 82209 69058",
                 "Manoj Kumar S" : "+91 94444 31042"

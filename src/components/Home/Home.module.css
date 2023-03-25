@@ -1,3 +1,6 @@
+.home{
+  min-height: 85vh;;
+}
 .oneliner {
     max-width: 60ch;
     font-size: 16px;
@@ -30,10 +33,19 @@ button {
   box-sizing: border-box;
   transition: all 500ms ease; 
 }
-button:hover{
-  color: #181a19;
+button:hover{  
   background:#f9f871;
 }
+
+button a{
+  text-decoration: none;
+  color: rgba(249, 248, 113,.8);
+}
+
+button:hover a{
+  color: #181a19;
+}
+
 .parent{
   display: flex;
 }
@@ -67,7 +79,6 @@ button:hover{
 
     .left {
         width: 75%;
-        background: rgba(24, 26, 25, 1);
         padding:5%;
     }
 

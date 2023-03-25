@@ -19,7 +19,7 @@ const Ace = () => {
 				<div className = {styles.everything}>
 					<div>
 						<div className={styles.photoplusace }>
-								<img src = "/assets/whatisace.jpg" className = {styles.whatisaceimage} alt="whatisace" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
+								<img src = "/assets/whatisace.gif" className = {styles.whatisaceimage} alt="whatisace" height = "20%" width = "60%" style = {{position: "relative", left: "260px"}}/>
 								<div className={styles.blurbox}>
 									<h1 className = {styles.whatisace}>What is Ace?</h1>
 									<div className = {styles.acepic}><img src = "https://i.ibb.co/WHmm2qh/logo-1.png" height = "100px" width = "100px" alt = "aceImg" /></div>

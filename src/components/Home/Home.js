@@ -19,7 +19,7 @@ function Home() {
 		
 	},[])
 	return <>
-	<div >
+	<div className={styles.home} >
 		<div className={styles.parent}>
 			<div className={styles.left} ref={el => left = el}>
 					<Title heading="ACE SYMPOSIUM" desc=""></Title>
@@ -27,7 +27,7 @@ function Home() {
 			</div>
 				
 			<div className={styles.right} ref={el => right = el}>
-				<img src='https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg' alt='img'></img>
+				<img src='/assets/ace_home.JPG' alt='img'></img>
 			</div>			
 		</div>
 	</div>

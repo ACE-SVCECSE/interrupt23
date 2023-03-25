@@ -43,7 +43,7 @@ function EventsList() {
 
     const events = getEvents();
 	return (
-        <div className="EventList">
+        <div className={styles.events}>
             <Title heading="EVENTS" desc="Lorem ipsum dolor"></Title>
             <Slider {...settings} className={ styles.list}>
                 {events.map((event)=><EventCard data={event}></EventCard>)}

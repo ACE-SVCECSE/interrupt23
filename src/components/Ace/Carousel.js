@@ -5,11 +5,11 @@ import styles from './Ace.module.css';
 const images = [
     {
         "caption": "ACE Inaugaration",
-        "url": "https://hips.hearstapps.com/hmg-prod/images/cute-baby-animals-1558535060.jpg"
+        "url": "/assets/ace_inaugration.jpeg"
     },
     {
         "caption": "Hackerrupt",
-        "url": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?cs=srgb&dl=pexels-pixabay-247502.jpg"
+        "url": "/assets/hackerrupt_22.JPG"
     }
 ]
 

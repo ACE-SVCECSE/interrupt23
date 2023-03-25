@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import styles from "../Home/Home.module.css"
 
 function SubHeading () {
@@ -7,7 +8,7 @@ function SubHeading () {
             <h1 className={styles.heading}>INTERRUPT '23</h1>
             <p className={styles.oneliner }>The Department of Computer Science and Engineering, SVCE, and ACE jointly present Interrupt, a national-level technical symposium where talents meet the limelight they deserve to acknowledge and showcase their finest selves.
             It offers a wide range of activities, such as workshops, coding contests, ideathons, web development competitions, and many more.</p>
-            <button>View More</button>
+            <button> <Link to="/events">View Events</Link></button>
         </div>
     </>
 }

@@ -22,11 +22,19 @@ function Home() {
 	<div className={styles.home} id="home">
 		<div className={styles.parent}>
 			<div className={styles.left} ref={el => left = el}>
+<<<<<<< HEAD
+=======
+			
+>>>>>>> 3e34cc4 (minor UI changes)
 					<Title heading="Sri Venkateswara College of Engineering" desc="Department of Computer Science and Engineering"></Title>
 					<SubHeading title="ACE"></SubHeading>
 			</div>
 				
 			<div className={styles.right} ref={el => right = el}>
+<<<<<<< HEAD
+=======
+			
+>>>>>>> 3e34cc4 (minor UI changes)
 				<img src='/assets/ace_home.jpeg' alt='img'></img>
 			</div>			
 		</div>

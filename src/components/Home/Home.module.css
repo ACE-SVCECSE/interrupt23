@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home{
   min-height: 85vh;;
 }
@@ -24,6 +25,37 @@
 
 .subHeading{
   margin: 0 0 1rem 5%;
+=======
+.home {
+  min-height: 85vh;
+}
+
+.oneliner {
+  max-width: 55ch;
+  font-size: 16px;
+  word-spacing: 0.1em;
+  text-align: justify;
+}
+
+.heading {
+  font-size: 60px;
+  color: #fff;
+  padding-left: 5%;
+  position: relative;
+}
+
+.heading::after {
+  content: "National-level Technical Symposium on March 31st, 2023";
+  font-size: 1.3rem;
+  display: block;
+  
+  align-items: center;
+  color: #f9f871;
+}
+
+.subHeading {
+  margin: 15px;
+>>>>>>> 3e34cc4 (minor UI changes)
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -33,14 +65,23 @@ button {
   border: #181a19 solid 1px;
   width: 150px;
   background: #181a19;
+<<<<<<< HEAD
   color: rgba(249, 248, 113,.8);
   padding: 10px;
   font-size: 16px;
   border-radius: 3px;
+=======
+  color: rgba(249, 248, 113, 0.8);
+  padding: 10px;
+  margin-left: 3px;
+  font-size: 16px;
+  border-radius: 10px;
+>>>>>>> 3e34cc4 (minor UI changes)
   border-color: #f9f871;
   border-style: solid;
   position: relative;
   box-sizing: border-box;
+<<<<<<< HEAD
   transition: all 500ms ease; 
 }
 button:hover{  
@@ -72,10 +113,50 @@ button:hover a{
 .right img {
   width: 100%;
   height: 100%;
+=======
+  transition: all 500ms ease;
+}
+
+button:hover {
+  background: #f9f871;
+}
+
+button a {
+  text-decoration: none;
+  color: rgba(249, 248, 113, 0.8);
+}
+
+button:hover a {
+  color: #181a19;
+}
+
+.parent {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  background-color: rgba(24, 26, 25, 0.5);
+  backdrop-filter: blur(5px);
+  translate: -10%;
+  z-index: 1;
+}
+
+.right {
+  width: 60%;
+  /* translate: -5s0%; */
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+>>>>>>> 3e34cc4 (minor UI changes)
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width:768px){
     .heading{
@@ -107,4 +188,46 @@ button:hover a{
         z-index:-1;
         background:rgba(24, 26, 25, 0.5);
     }
+=======
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+  .subHeading .heading{
+    align-items: center;
+    padding-right: 10%;
+  }
+  .parent {
+    flex-direction: column;
+  }
+  
+  .left {
+    width: 100%;
+    padding: 0;
+    translate: -1%;
+    z-index: 1;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .right img {
+    
+    position: relative;
+    z-index: -1;
+    background: rgba(24, 26, 25, 0.5);
+  }
+
+  .oneliner {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+>>>>>>> 3e34cc4 (minor UI changes)
 }

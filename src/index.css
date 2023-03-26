@@ -57,7 +57,7 @@ h1 {
     }
 }
 
-@media (max-width:660px) {
+@media (max-width:760px) {
     .EventList .slick-slider {
         width: 80%;
         margin-left: 10%;
@@ -70,4 +70,12 @@ h1 {
     .EventList .slick-next {
         right: -5%;
     }
+    #home #title h1::after{
+        content: "\n";
+        content: "Association of Computer Engineers";
+        padding-left: 0%;
+        font-size: 1.2rem;
+        display: block;
+        color: #f9f871;
+    }   
 }

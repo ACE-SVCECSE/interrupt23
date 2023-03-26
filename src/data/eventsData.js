@@ -47,8 +47,13 @@ const events =[
           
             registerLink: "https://forms.gle/X8Z3Swbk2Yj2f25s9",
             contact: {
+<<<<<<< HEAD
                 "Karthick.K:" : "+91 94448 53879",
                 "Vishnuvardan.A" : "+91 72992 13502"
+=======
+                "Karthick K:" : "+91 94448 53879",
+                "Vishnuvardan A" : "+91 72992 13502"
+>>>>>>> 3e34cc4 (minor UI changes)
             }
         }
     },

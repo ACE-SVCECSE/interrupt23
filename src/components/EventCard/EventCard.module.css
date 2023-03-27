@@ -7,6 +7,7 @@
     justify-content: space-between;
     color: #f9f871;
     border: 4px solid #f9f871;
+    transition: 0.4s;
 }
 
 .event_card * {
@@ -28,4 +29,10 @@
 .arrow img {
     width: 25%;
     height: 50px;
+}
+
+@media screen and (min-width:769px){
+    .event_card:hover{
+       transform: scale(0.9);
+    }
 }

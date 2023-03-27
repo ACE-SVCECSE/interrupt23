@@ -14,9 +14,9 @@ function Footer() {
                 <img src="https://i.ibb.co/G9pXQYX/Ace-logo.png" alt="Ace_logo" border="0"/>
                 <div>
                     <Title heading="CONTACT"></Title><br></br>
-                    <h1>Swetha A: <a href="tel:+917305708980">+91 73057 08980</a></h1>
-                    <h1>R. Adithyarajen: <a href="tel:+917200036383">+91 72000 36383</a></h1>
-                    <h1>Aadesh VijayaRaghavan: <a href="tel:+919445748056">+91 94457 48056</a></h1>
+                    <h1>Swetha A: <a href="tel:+917305708980">+917305708980</a></h1>
+                    <h1>R. Adithyarajen: <a href="tel:+917200036383">+917200036383</a></h1>
+                    <h1>Aadesh VijayaRaghavan: <a href="tel:+919445748056">+919445748056</a></h1>
                 </div>			
             </div>
             <hr></hr>

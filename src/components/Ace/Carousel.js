@@ -10,7 +10,20 @@ const images = [
     {
         "caption": "Hackerrupt",
         "url": "/assets/hackerrupt_22.JPG"
+    },
+    {
+        "caption": "Womania",
+        "url": "/assets/womania.jpeg"
+    },
+    {
+        "caption": "Code bingo",
+        "url": "/assets/codebingo.jpeg"
+    },
+    {
+        "caption": "Ace your potential",
+        "url": "/assets/ace_inaugration.jpeg"
     }
+
 ]
 
 const Carousel = () => {

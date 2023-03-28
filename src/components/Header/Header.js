@@ -26,6 +26,10 @@ function Header() {
                     <div className={styles.logo}>
                         <img alt="logo"  src="/assets/ace_logo.png"/>
                     </div>
+                    <div className={styles.svcelogo}>
+                            <img alt="logo"  src="/assets/svce_logo.png"/>
+                    </div>
+                   
                     <div className={menuClassName}>
                         <div className={styles.navitems}>
                             <li onClick = {()=>handleHamburgerClick()}><Link to="/">Home</Link></li>
@@ -49,9 +53,6 @@ function Header() {
                         <span className={styles.bar}></span>
                         <span className={styles.bar}></span>
                     </button>
-                    <div className={styles.svcelogo}>
-                        <img alt="logo"  src="/assets/svce_logo.png"/>
-                    </div>
                 </div>
             </div>
             <div>

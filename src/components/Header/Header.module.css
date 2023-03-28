@@ -14,8 +14,14 @@ body {
     display:flex;
     flex-direction:row ;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
+
+.nav .svcelogo{
+    border-bottom: 2px solid #c9cccb;
+    padding-bottom: 1.15%;
+}
+
 .nav .logo{
    padding-right: 20px;
 }

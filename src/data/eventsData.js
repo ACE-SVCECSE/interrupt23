@@ -284,6 +284,31 @@ Additional credits will be given for showcasing creative skills like animations 
                 "Manoj Kumar S" : ":+91 82209 69058"
             }
         }
+    },
+    {
+        id: 10,
+        title: "Workshop",
+        oneliner: "",
+        image: "/assets/events/PaperPresentation.jpg",
+        desc:"ACE is organizing a workshop on Cybersecurity Applications, Attacks and Tools. The workshop is being conducted by Rakesh Elamaran and Abhisheik Magesh,  two highly knowledgeable professionals with years of experience in the field. Students will get hands-on experience working with Kali Linux and Virtual Box  environments. There are no expected skill prerequisites.",
+        rules: [
+            "Participants are expected to bring their own laptops with the following software installed:",
+            " - Virtual box",
+            " - Kali linux ",
+            "The organizers have generously provided a video explaining the installation of the respective software: https://youtu.be/j2vAshOm8QI",
+            "Lunch will be provided. The entry fee for the event is ₹250."
+        ],
+        eventDetails: {          
+            registerLink: "https://forms.gle/kzewnHuHuhdrSs5N6",
+            organizers : {
+                "Rakesh Elamaran" : "Security Engineer 2, Comcast & Founder, Rootecstak,",
+                "Abisheik Magesh" : "Security Analyst, Synchrony & Co-Founder, Rootecstak"
+            },
+            contact: {
+                "Swetha:" : "+919600040481",
+                "Yashwanth" : "+918220010766"
+            }
+        }
     }
 ];
 

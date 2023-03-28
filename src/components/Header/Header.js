@@ -11,6 +11,7 @@ import Event from '../Event/Event';
 import EventsList from '../EventsList/EventsList';
 import Ace from '../Ace/Ace';
 import Guidelines from '../Guidelines/Guidelines';
+import Workshop from '../Workshop/Workshop';
 
 function Header() {
     const [isMenuVisible, setIsMenuVisible] = useState(false)
@@ -47,6 +48,10 @@ function Header() {
                             <li  onClick = {()=>handleHamburgerClick()}><Link to="/guidelines">Guidelines</Link></li>
                             <div className={styles.line}></div>
                         </div>
+                        <div className={styles.navitems}>
+                            <li  onClick = {()=>handleHamburgerClick()}><Link to="/workshop">Workshop</Link></li>
+                            <div className={styles.line}></div>
+                        </div>
                     </div>
                     <button className={hamburgerClassName} onClick={handleHamburgerClick}>
                         <span className={styles.bar}></span>
@@ -61,6 +66,7 @@ function Header() {
                     <Route exact path='/events' element={< EventsList />}></Route>
                     <Route exact path='/ace' element={< Ace />}></Route>
                     <Route exact path='/guidelines' element={< Guidelines />}></Route>
+                    <Route exact path='/workshop' element={< Workshop />}></Route>
                     <Route exact path={`/events/:eventname`} element={< Event />}></Route>
                 </Routes>
             </div>

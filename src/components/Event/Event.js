@@ -3,7 +3,7 @@ import styles from './Event.module.css';
 import {useParams} from "react-router-dom";
 import getEvents from '../../data/eventsData';
 
-function Event(props) {
+function Event() {
 		const params = useParams();
 		const event = getEvents().find((event) => event.title === params.eventname);
 

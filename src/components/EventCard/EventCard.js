@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function EventCard(props) {
     return (
         <div className={styles.event_card}>
-            <img className={styles.event_img} alt="event_pic" src={props.data.image} />
+            <img className={styles.event_img} alt="event_pic" src={props.data.icon} />
             <h1>{props.data.title}</h1>
             <p>{props.data.oneliner}</p>
             <Link to={`/events/${props.data.title}`} className={styles.arrow}>

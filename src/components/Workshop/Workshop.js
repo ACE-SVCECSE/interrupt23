@@ -36,9 +36,9 @@ function Workshop() {
 				
 			</div>
 			<div className={styles.imgDiv}>
-				<img src="/assets/events/workshop.jpeg" alt="workshop" className={styles.fakeImg} />
+				 {event.images.map(image => <img src={image} alt="fake-img" className={styles.fakeImg} />)}
 			</div> 
-			 
+
 			</div>
 		  </div>
 		);

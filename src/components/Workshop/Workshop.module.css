@@ -15,20 +15,15 @@ body {
       box-sizing: border-box;
   }
 .imgDiv{
-      position: absolute;
-      right: 30px;
-      top: calc(50vh - 5px);
-      transform: translateY(-50%);
-      max-width: 40%;
-      height: auto;
-      margin: 30px;
-  }
+    width: 50%;
+    height: auto;
+    margin: 30px;
+}
 .fakeImg{
-      margin: 20px;
-      width: 100%;
-      height: auto;
-      transform: scale(0.7);
-  }
+    width: 100%;
+    height: auto;
+    transform: scale(0.7);
+}
   
 .deadlineText{
     font-size: 18px;

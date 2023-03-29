@@ -3,7 +3,8 @@ const events =[
         id: 1,
         title: "Joker Coder",
         oneliner: "A coding extravaganza where participants code in turns while battling against a variety of fun distractions",
-        image: "/assets/events/JokerCoder.jpg",
+        icon: "/assets/events/JokerCoder.jpg",
+        images: ["/assets/events/JokerCoder.jpg"],
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -30,7 +31,8 @@ const events =[
         id: 2,
         title: "Darwin Charles",
         oneliner: "Devolve (reverse engineer) the given output file to uncover the original code",
-        image: "/assets/events/DarwinCharles.jpg",
+        icon: "/assets/events/DarwinCharles.jpg",
+        images: ["/assets/events/DarwinCharles.jpg"],
         eventDetails: {
             teamSize: "Individual or 2",
             rules:[
@@ -56,7 +58,8 @@ const events =[
         id: 3,
         title: "Glitch Hunters",
         oneliner: "Unravel the clues and conquer the challenge while sharpening your debugging skills",
-        image: "/assets/events/GlitchHunters.png",
+        icon: "/assets/events/GlitchHunters.png",
+        images: ["/assets/events/GlitchHunters.png"],
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -83,7 +86,8 @@ const events =[
         id: 4,
         title: "Present At The Moment",
         oneliner: "Where Ideas Make Excellence - as the tagline suggests, the challenges might be daunting, but your excellence is the key",
-        image: "/assets/events/Presentatthemoment.jpg",
+        icon: "/assets/events/Presentatthemoment.jpeg",
+        images: ["/assets/events/Presentatthemoment1.jpeg", "/assets/events/Presentatthemoment2.jpeg"],
         eventDetails: {
             teamSize: "2-3",
             rules:[
@@ -123,7 +127,8 @@ const events =[
         id: 5,
         title: "DebaTe-ch",
         oneliner: "A debate competition where participants argue on a wide range of topics related to the computer science field",
-        image: "/assets/events/Debate-ch.jpg",
+        icon: "/assets/events/Debate-ch.jpg",
+        images: ["/assets/events/Debate-ch.jpg"],
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -158,7 +163,8 @@ const events =[
         id: 6,
         title: "Code Relay",
         oneliner: "Take turns completing the code or get left behind in the race",
-        image: "/assets/events/CodeRelay.jpg",
+        icon: "/assets/events/CodeRelay.jpg",
+        images: ["/assets/events/CodeRelay.jpg"],
         eventDetails: {
             teamSize: 3,
             rules:[
@@ -184,7 +190,8 @@ const events =[
         id: 7,
         title: "Crack The Lock",
         oneliner: "Solve the hurdles of code  and acquire the key to mystery",
-        image: "/assets/events/CracktheLock.jpg",
+        icon: "/assets/events/CracktheLock.jpg",
+        images: ["/assets/events/CracktheLock.jpg"],
         eventDetails: {
             teamSize: "1-2",
             rules:[
@@ -211,7 +218,8 @@ const events =[
         id: 8,
         title: "Webworx",
         oneliner: "Challenge your web development skills and pay homage to the pioneers of the internet by recreating a classic website in our event",
-        image: "/assets/events/WebWorx.png",
+        icon: "/assets/events/WebWorx.png",
+        images: ["/assets/events/WebWorx.png"],
         eventDetails: {
             teamSize: 2,
             rules:[
@@ -237,7 +245,8 @@ Additional credits will be given for showcasing creative skills like animations 
         id: 9,
         title: "Paper Presentation",
         oneliner: "From concept to reality, showcase your unique ideas that address real-world challenges",
-        image: "/assets/events/PaperPresentation.jpg",
+        icon: "/assets/events/PaperPresentation.jpg",
+        images: ["/assets/events/PaperPresentation.jpg"],
         eventDetails: {
             teamSize: "1-3",
             rules:[
@@ -289,7 +298,7 @@ Additional credits will be given for showcasing creative skills like animations 
         id: 10,
         title: "Workshop",
         oneliner: "",
-        image: "/assets/events/PaperPresentation.jpg",
+        images: ["/assets/events/workshop.jpeg", "/assets/events/workshop1.jpeg", "/assets/events/workshop2.jpeg"],
         desc:"ACE is organizing a workshop on Cybersecurity Applications, Attacks and Tools. The workshop is being conducted by Rakesh Elamaran and Abhisheik Magesh,  two highly knowledgeable professionals with years of experience in the field. Students will get hands-on experience working with Kali Linux and Virtual Box  environments. There are no expected skill prerequisites.",
         rules: [
             "Participants are expected to bring their own laptops with the following software installed:",

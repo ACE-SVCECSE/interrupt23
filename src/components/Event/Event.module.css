@@ -105,16 +105,16 @@ body {
     }
     .textContainer{
      width: 100%;
-     margin: 40% 0 0 0;
+     margin: 0;
     }
     .imgDiv{
       position: static;
       margin: 0 auto;
+      width: 100%;
     }
    .fakeImg{
     height: auto;
     width: 100%;
-    transform: translateY(100%) translateX(-5%) scale(1.8);
    }
   }
   

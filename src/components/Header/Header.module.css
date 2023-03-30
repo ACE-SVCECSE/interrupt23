@@ -50,7 +50,7 @@ body {
     text-decoration: none; 
     padding-left: 10px;   
 }
-.nav .navmenu li a:after{
+.nav .navmenu li:not(".schedule") a:after{
     content: '';
     display: block;
     height: 1px;

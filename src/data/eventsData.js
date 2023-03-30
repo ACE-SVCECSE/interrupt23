@@ -173,9 +173,8 @@ const events =[
                 "Participants should have a HackerEarth account."
             ],
             rounds:[
-                "A programming question will be given and the participants are asked to find the solution by working in the above manner. After 12 minutes, the team members can work together for 2 minutes.",
-                "Participants are asked to write a program to print the given pattern.",
-                "The teams are given an error-ridden html file and are expected to modify the code such that it displays the desired visual output. 18 minutes are given in total, with each teammate having 6 minutes to do their part. No time will be given at the end for working together."
+                "The teams will have to solve three questions for the first round. Finishing the question first with functional code is worth 2 points, while writing functional code alone within the time limit is worth 1 point. The top-scoring team from each  batch is chosen at the end of the round and allowed to move on to the finals. 2 minutes are given for a preparatory discussion. 12 minutes are given for coding the solution, with each teammate being allowed to code for 4 minutes in total.  Teammates are not allowed to communicate with the person who is coding. A teammate can finish their turn before the three minutes and pass it onto the next person if they wish to do so. 2 minutes are given for the entire team to come together and cross-check their solution.",
+                "The team will be given a single question related to HTML coding. 10 minutes of prep time is given. 18 minutes of coding time is given, with each teammate being allowed to code for 6 minutes in total."
             ],
             judging: "For the first round, writing functional, error-free code within the 12+2 minutes alone is enough to qualify. However, for the second and third rounds, the team that has functional code and finishes first wins",
           

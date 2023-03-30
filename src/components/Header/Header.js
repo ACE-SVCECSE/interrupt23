@@ -55,11 +55,10 @@ function Header() {
               <div className={styles.line}></div>
             </div>
             <div className={styles.navitems}>
-  <li onClick={() => handleHamburgerClick()}>
-    <a href="../assets/InterruptSchedule.pdf">Schedule</a>
-  </li>
-  <div className={styles.line}></div>
-</div>
+                <li className={styles.schedule} onClick={() => handleHamburgerClick()}>
+                    <a href="../assets/InterruptSchedule.pdf"><button>Schedule</button></a>
+                </li>
+            </div>
 
             {/* <div className={styles.navitems}>
                             <li  onClick = {()=>handleHamburgerClick()}><Link to="/workshop">Workshop</Link></li>

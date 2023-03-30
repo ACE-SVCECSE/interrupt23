@@ -61,6 +61,7 @@ button {
   position: relative;
   box-sizing: border-box;
   transition: all 500ms ease;
+  cursor: pointer;
 }
 
 
@@ -144,7 +145,7 @@ button:hover a {
   }
 
   button {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 1rem;
   }
 }

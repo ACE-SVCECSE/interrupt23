@@ -41,12 +41,18 @@
   justify-content: space-evenly;
 }
 
+button .buttonContainer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+  margin: 10px;
+}
 button {
   border: #181a19 solid 1px;
-  width: 150px;
+  width: 170px;
   background: #181a19;
   color: rgba(249, 248, 113, 0.8);
-  padding: 10px;
+  padding: 15px;
   margin-left: 3px;
   font-size: 16px;
   border-radius: 10px;
@@ -57,8 +63,10 @@ button {
   transition: all 500ms ease;
 }
 
+
 button:hover {
   background: #f9f871;
+  color: #181a19;
 }
 
 button a {
@@ -103,6 +111,7 @@ button:hover a {
   }
   .eligible{
     margin-left: 0;
+    margin-bottom: -30px;
   }
   .subHeading .heading{
     align-items: center;

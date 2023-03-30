@@ -21,9 +21,9 @@ function Home() {
 	return <>
 	<div className={styles.home} id="home">
 		<div className={styles.parent}>
-			<div className={styles.left} ref={el => left = el}>
-			
+			<div className={styles.left} ref={el => left = el}>			
 					<Title heading="Sri Venkateswara College of Engineering" desc="Department of Computer Science and Engineering"></Title>
+					<p className={styles.eligible}>Only Engineering students can participate</p>
 					<SubHeading title="ACE"></SubHeading>
 			</div>
 				
